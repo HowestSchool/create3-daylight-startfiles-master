@@ -334,6 +334,8 @@ input::placeholder {
 
 .c-horizon__sun {
   position: absolute;
+  left: var(--local-sun-position-left);
+  bottom: var(--local-sun-position-bottom);
   display: flex;
   flex-direction: column;
   justify-content: center;
